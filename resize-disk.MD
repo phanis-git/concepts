@@ -1,6 +1,7 @@
 #### Resize EBS Storage
 
 check the partitions
+--------------------
 
 lsblk
 
