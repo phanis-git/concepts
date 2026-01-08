@@ -2,12 +2,13 @@
 -----------------------
 
 check the partitions
---------------------
+------
 
 lsblk
 
 
 Use a tool like growpart to resize the existing partition to fill the available space.This will resize the fourth partition (nvme0n1p4) to use the remaining unallocated space on the disk.
+-------------
 
 sudo growpart /dev/nvme0n1 4
 
